@@ -1,0 +1,321 @@
+@charset "UTF-8";
+
+
+/*
+========================================
+    宅配サービスはここから
+=========================================
+*/
+
+/*----宅配サービス-----*/
+div#Service_delivery {
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+/*----企業配サービス-----*/
+div#Service_delivery_bussiness {
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: rgba(242, 245, 249, 0.95);
+    overflow: hidden;
+}
+
+@media screen and (max-width: 960px){
+    .div#Service_delivery,
+    div#Service_delivery_bussiness {
+        padding: 60px 20px;
+    }}
+
+
+/*----共通-----*/
+.service_wrap1 {
+    max-width: 1280px;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+
+@media screen and (max-width: 960px){
+    .service_wrap1 {
+        width: 90%;
+    }}
+
+
+
+.service_text p {
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 1280px){
+    .service_text p {
+        margin-top: 60px;
+}}
+    @media screen and (max-width: 960px){
+        .service_text p {
+            margin-top: 40px;
+    }}
+
+
+.service_contents1 {
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 1280px){
+    .service_contents1 {
+        margin-top: 60px;
+}}
+    @media screen and (max-width: 960px){
+        .service_contents1 {
+            margin-top: 40px;
+    }}
+
+
+.contents_list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    gap: 40px;
+    justify-content: center;
+}
+
+
+.contents_list_item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 960px){
+    .contents_list_item {
+        flex: none;
+        width: 45%;
+}}
+
+@media screen and (max-width: 540px){
+    .contents_list_item {
+        flex: none;
+        width: 70%;
+}}
+
+
+
+
+.list_img_box {
+    width: 100%;
+    position: relative;
+    background-color: black;
+    box-shadow: 10px 10px #FCF76A;
+}
+
+.list_img_box img {
+    width: 100%;
+    opacity: 0.7;
+}
+
+.one_word {
+    color: white;
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+}
+
+.contents_list_item p {
+    display: block;
+    margin-top: 40px;
+    width: 95%;
+}
+
+
+/*
+========================================
+    チャーターはここから
+=========================================
+*/
+
+
+div#Service_charter,
+div#Service_moving,
+div#Service_charter, 
+div#Service_unload {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+
+@media screen and (max-width: 960px){
+    div#Service_charter,
+    div#Service_moving,
+    div#Service_charter, 
+    div#Service_unload {
+        margin-top: 60px;
+    }}
+
+
+.service_wrap2 {
+    width: 80%;
+    max-width: 1280px;
+    height: auto;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 960px){
+    .service_wrap2 {
+        width: 90%;
+    }}
+
+
+
+
+.service_text {
+    width: auto;
+    height: auto;
+}
+
+.service_contents2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    gap: 60px;
+}
+
+@media screen and (max-width: 1280px){
+    .service_contents2 {
+        margin-top: 60px;
+        gap: 40px;
+}}
+    @media screen and (max-width: 960px){
+        .service_contents2 {
+            margin-top: 40px;
+    }}
+
+
+
+div#Service_moving .service_contents2 {
+    flex-direction: row-reverse;
+    position: relative;
+}
+
+
+.service_contents2 p {
+    width: 50%;
+    height: auto;
+}
+
+
+
+.service_contents2 img {
+    width: 45%;
+    height: auto;
+}
+
+
+
+.moving_price {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.moving_price ul {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F5F9;
+    padding: 4px;
+    gap: 4px;
+}
+
+@media screen and (max-width: 540px){
+    .moving_price ul  {
+        overflow-x: scroll;
+        width: auto;
+        justify-content: baseline;
+        margin-left: 40px;
+}}
+
+
+.moving_price ul li {
+    width: 100%;
+    height: 60px;
+}
+
+@media screen and (max-width: 540px){
+    .moving_price ul li {
+        width: auto;
+}}
+
+
+.moving_price ul li dl {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction:row;
+    gap: 4px;
+}
+
+@media screen and (max-width: 540px){
+    .moving_price ul li dl {
+        width: auto;
+}}
+
+
+.moving_price ul li dl dt {
+    width: 240px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 960px){
+    .moving_price ul li dl dt {
+        width: 144px;
+}}
+
+
+
+
+.plan_customer {
+    color: #11D0C9;
+}
+
+.moving_price ul li dl dd {
+    height: 100%;
+    flex: 1;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 540px){
+    .moving_price ul li dl dd {
+        flex: none;
+        width: 160px;
+}}

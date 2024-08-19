@@ -1,0 +1,336 @@
+@charset "UTF-8";
+
+
+/*
+========================================
+    採用情報はここから
+=========================================
+*/
+
+div#Recruit_detail {
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: rgba(242, 245, 249, 0.95);
+    overflow: hidden;
+}
+
+@media screen and (max-width: 960px){
+    div#Recruit_detail {
+        padding: 60px 20px;
+}}
+
+
+.Recruit_wrap1 {
+    max-width: 1280px;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+
+@media screen and (max-width: 960px){
+    .Recruit_wrap1 {
+        width: 90%;
+        justify-content: center;
+}}
+
+
+.Recruit_text p {
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 1280px){
+    .Recruit_text p {
+        margin-top: 60px;
+}}
+    @media screen and (max-width: 960px){
+        .Recruit_text p {
+            margin-top: 40px;
+    }}
+
+
+
+.recruit_links {
+    width: 100%;
+    height: 300px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+@media screen and (max-width: 1280px){
+    .recruit_links {
+        margin-top: 60px;
+}}
+    @media screen and (max-width: 960px){
+        .recruit_links {
+            margin-top: 40px;
+            height: 200px;
+    }}
+
+    @media screen and (max-width: 540px){
+        .recruit_links {
+            height: auto;
+            align-items: center;
+            justify-content: baseline;
+    }}
+
+
+
+.linkbox {
+    width: 50%;
+    height: 100%;
+    background-color:black;
+    position: relative;
+    display: inline-block;
+    padding: 12px;
+}
+
+@media screen and (max-width: 540px){
+    .linkbox { 
+        padding: 6px;
+        height: 50px;
+        background-color: black;
+}}
+
+
+
+.linkbox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+@media screen and (max-width: 540px){
+    .linkbox img{
+        display: none;
+}}
+
+
+
+.linkbox a {
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    position: relative;
+}
+.linkbox ::before {
+    content: "";
+    position: absolute;
+    top: -12px;
+    left:-12px;
+    right: -12px;
+    bottom: -12px;
+}
+
+/*
+========================================
+    ドライバー職・倉庫管理者はここから
+=========================================
+*/
+
+div#Recruit_driver,
+div#Recruit_manager {
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 960px){
+    div#Recruit_driver,div#Recruit_manager {
+        padding: 60px 40px;
+}}
+
+@media screen and (max-width: 960px){
+    div#Recruit_driver,div#Recruit_manager {
+        padding: 60px 20px;
+}}
+
+
+.Recruit_wrap2 {
+    max-width: 1280px;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+
+@media screen and (max-width: 540px){
+    .Recruit_wrap2 {
+        width: 90%;
+        margin: 0;
+}}
+
+
+.Recruit_contents {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin-top: 80px;
+}
+
+
+@media screen and (max-width: 960px){
+    .Recruit_contents {
+        flex-direction: column;
+    }}
+
+
+.Contents_detail {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+@media screen and (max-width: 960px){
+    .Contents_detail {
+        width: 100%;
+        gap: 40px;
+}}
+
+
+.Contents_detail img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1280px){
+    .Contents_detail img {
+        height: 200px;
+}}
+
+
+
+/*---テーブル----*/
+
+.Recruit_info {
+width: 60%;
+height: auto;
+display: flex;
+flex-direction: column;
+}
+
+@media screen and (max-width: 960px){
+    .Recruit_info {
+        width: 100%;
+}}
+
+
+.Recruit_info ul {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F5F9;
+    padding: 4px;
+    gap: 4px;
+}
+
+.Recruit_info ul li {
+    width: 100%;
+    height: auto;
+    min-height: 60px;
+}
+
+.Recruit_info ul li dl {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction:row;
+}
+
+.Recruit_info ul li dl dt {
+    width: 20%;
+    min-width:100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 960px){
+    .Recruit_info ul li dl dt {
+        min-width:80px;
+    }}
+
+
+
+.Recruit_info ul li dl dd {
+    height: 100%;
+    flex: 1;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 960px){
+    .Recruit_info ul li dl dd {
+        padding: 12px;
+    }}
+
+
+
+
+/*
+========================================
+    Contactはここから
+=========================================
+*/
+
+
+
+.Contact_link {
+width:100%;
+height: 50vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative;
+background-color: rgba(0, 0, 0, 0.6);
+margin-top: 100px;
+}
+
+.title_1 {
+width: auto;
+height: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.Contact_link .btn-1 {
+    margin-top: 40px;
+}
+
+
