@@ -82,6 +82,22 @@ div#Recruit_detail {
             justify-content: baseline;
     }}
 
+    .recruit_links a {
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    @media screen and (max-width: 960px){
+        .recruit_links a {
+            font-size: 20px;
+    }}
+
+    @media screen and (max-width: 540px){
+        .recruit_links a {
+            font-size: 16px;
+    }}
+
+
 
 
 .linkbox {
@@ -92,6 +108,13 @@ div#Recruit_detail {
     display: inline-block;
     padding: 12px;
 }
+
+
+.linkbox :hover {
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
 
 @media screen and (max-width: 540px){
     .linkbox { 
@@ -113,6 +136,8 @@ div#Recruit_detail {
     z-index: 0;
 }
 
+
+
 @media screen and (max-width: 540px){
     .linkbox img{
         display: none;
@@ -130,14 +155,7 @@ div#Recruit_detail {
     border: 1px solid white;
     position: relative;
 }
-.linkbox ::before {
-    content: "";
-    position: absolute;
-    top: -12px;
-    left:-12px;
-    right: -12px;
-    bottom: -12px;
-}
+
 
 /*
 ========================================
