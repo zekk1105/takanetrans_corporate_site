@@ -82,6 +82,9 @@ div#Recruit_detail {
             justify-content: baseline;
     }}
 
+
+
+
     .recruit_links a {
         font-size: 28px;
         font-weight: bold;
@@ -106,13 +109,12 @@ div#Recruit_detail {
     background-color:black;
     position: relative;
     display: inline-block;
-    padding: 12px;
 }
 
 
 .linkbox :hover {
     padding: 0;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 
@@ -152,9 +154,14 @@ div#Recruit_detail {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid white;
     position: relative;
 }
+
+@media screen and (max-width: 540px){
+    .linkbox a{
+        border: 1px solid white;
+}}
+
 
 
 /*

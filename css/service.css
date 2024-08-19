@@ -121,7 +121,7 @@ div#Service_delivery_bussiness {
     width: 100%;
     position: relative;
     background-color: black;
-    box-shadow: 10px 10px #FCF76A;
+    box-shadow: 10px 10px #ffea00;
 }
 
 .list_img_box img {
@@ -242,6 +242,7 @@ div#Service_moving .service_contents2 {
     margin-top: 60px;
 }
 
+
 .moving_price ul {
     width: 100%;
     height: auto;
@@ -254,10 +255,9 @@ div#Service_moving .service_contents2 {
 
 @media screen and (max-width: 540px){
     .moving_price ul  {
-        overflow-x: scroll;
         width: auto;
         justify-content: baseline;
-        margin-left: 40px;
+        overflow-x: scroll;
 }}
 
 

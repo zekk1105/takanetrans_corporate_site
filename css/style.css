@@ -81,6 +81,16 @@ h1 {
     z-index: 0;
 }
 
+@media screen and (max-width: 960px){
+    .L-line_::before::before {
+        margin-top: 32px;
+}}
+
+@media screen and (max-width: 540px){
+    .L-line::before {
+        left: 0;
+}}
+
 
 
 h2 {
@@ -183,23 +193,23 @@ dd,dt {
 
 
 .a_shadow{
-    box-shadow: -10px 10px #FCF76A;
+    box-shadow: -10px 10px #ffea00;
     }
 
 
 .b_shadow{
-    box-shadow: 10px 10px #FCF76A;
+    box-shadow: 10px 10px #ffea00;
     margin-bottom: 10px;
 }
 
 .c_shadow{
-    box-shadow: -10px -10px #FCF76A;
+    box-shadow: -10px -10px #ffea00;
     }
 
 
 
 .btn-1 {
-    background-color: #FCF76A;
+    background-color: #ffea00;
     width: 160px;
     height: 56px;
     display: flex;
@@ -332,7 +342,7 @@ width: 60px;
 justify-content: center;
 align-items: center;
 z-index: 90;
-background-color: #FCF76A;
+background-color: #ffea00;
 }
 .menu-btn span,
 .menu-btn span:before,
@@ -376,7 +386,7 @@ width: 100%;
 height: 100%;
 position: relative;
 z-index: 80;
-background-color: #FCF76A;
+background-color: #ffea00;
 }
 .menu-content ul {
 width: 100%;
@@ -407,7 +417,7 @@ position: fixed;
 top: 0;
 left: 100%;/*leftの値を変更してメニューを画面外へ*/
 z-index: 80;
-background-color: #FCF76A;
+background-color: #ffea00;
 transition: all 0.5s;/*アニメーション設定*/
 }
 #menu-btn-check:checked ~ .menu-content {
@@ -422,7 +432,7 @@ left: 0;/*メニューを画面内へ*/
 
 
 .Title {
-    background: #FCF76A;
+    background: #ffea00;
     color: black;
     width: fit-content;
     height: auto;
@@ -539,7 +549,7 @@ height: 100%;        }}
     font-size: 120px;
     letter-spacing: 0.1em;
     line-height: 1;
-    color: #FCF76A;
+    color: #ffea00;
     font-weight: normal;
 }
 

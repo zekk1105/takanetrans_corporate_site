@@ -301,7 +301,7 @@ overflow: hidden;
 
 @media screen and (max-width: 540px){
     .Service_info ul li{
-        flex-direction: column-reverse;
+        gap: 30px;
 }}
 
 
@@ -312,7 +312,7 @@ overflow: hidden;
 
 @media screen and (max-width: 540px){
     .Service_info ul li:nth-child(even) {
-    flex-direction: column-reverse;
+    flex-direction:row;
 }}
 
 
@@ -329,7 +329,7 @@ overflow: hidden;
 
 @media screen and (max-width: 540px){
     .Service_info_img {
-    width: 80%;
+    width: 35%;
 }}
 
 
@@ -350,6 +350,12 @@ overflow: hidden;
 .Service_info ul li:nth-child(even) .Service_text {
     align-items: end;
 }
+
+@media screen and (max-width: 540px){
+    .Service_info ul li:nth-child(even) .Service_text {
+    align-items: baseline;
+}}
+
 
 
 /*
