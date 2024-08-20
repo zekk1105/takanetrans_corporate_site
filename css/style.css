@@ -45,7 +45,7 @@ h1 {
 
 /*--タイトル背景線--*/
 .R-line::after {
-    margin-top: 40px;
+    margin-top: 42px;
     background-color: #F2F5F9;
     content: "";
     height: 6px;
@@ -57,28 +57,41 @@ h1 {
 
 @media screen and (max-width: 960px){
     .R-line::after {
+        margin-top: 40px;
+}}
+
+@media screen and (max-width: 540px){
+    .R-line::after {
         margin-top: 32px;
 }}
 
 
+
 .R-line_white::after {
-    margin-top: 40px;
+    margin-top: 42px;
     background-color: #fff;
     content: "";
     height: 6px;
     width: 100vw;
     position: absolute;
     z-index: -1;
+    top: 4px;
 }
 
 @media screen and (max-width: 960px){
+    .R-line_white::after {
+        margin-top: 40px;
+}}
+
+@media screen and (max-width: 540px){
     .R-line_white::after {
         margin-top: 32px;
 }}
 
 
+
 .L-line::before {
-    margin-top: 40px;
+    margin-top: 42px;
     background-color: #F2F5F9;
     content: "";
     height: 6px;
@@ -90,12 +103,13 @@ h1 {
 
 @media screen and (max-width: 960px){
     .L-line_::before::before {
-        margin-top: 32px;
+        margin-top: 40px;
 }}
 
 @media screen and (max-width: 540px){
     .L-line::before {
         left: 0;
+        margin-top: 32px;
 }}
 
 
