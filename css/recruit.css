@@ -120,7 +120,7 @@ div#Recruit_detail {
 
 @media screen and (max-width: 540px){
     .linkbox { 
-        padding: 6px;
+        padding: 1px;
         height: 50px;
         background-color: black;
 }}
