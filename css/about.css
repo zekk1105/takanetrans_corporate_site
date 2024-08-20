@@ -127,6 +127,19 @@ div#Greeting {
         height: 40vh;
 }}
 
+@media screen and (max-width: 960px){
+    .title_box {
+        height: 35vh;
+}}
+
+
+@media screen and (max-width: 540px){
+    .title_box img {
+        object-fit: cover;
+        object-position:right;
+    }}
+
+
 
 .title_1 {
     width: auto;

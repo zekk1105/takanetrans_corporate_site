@@ -52,8 +52,14 @@ h1 {
     width: 100vw;
     position: absolute;
     left: 0;
-    z-index: 0;
+    z-index: -1;
 }
+
+@media screen and (max-width: 960px){
+    .R-line::after {
+        margin-top: 32px;
+}}
+
 
 .R-line_white::after {
     margin-top: 40px;
@@ -62,7 +68,7 @@ h1 {
     height: 6px;
     width: 100vw;
     position: absolute;
-    z-index: 0;
+    z-index: -1;
 }
 
 @media screen and (max-width: 960px){

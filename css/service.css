@@ -31,7 +31,7 @@ div#Service_delivery_bussiness {
 }
 
 @media screen and (max-width: 960px){
-    .div#Service_delivery,
+    div#Service_delivery,
     div#Service_delivery_bussiness {
         padding: 60px 20px;
     }}
@@ -111,7 +111,7 @@ div#Service_delivery_bussiness {
 @media screen and (max-width: 540px){
     .contents_list_item {
         flex: none;
-        width: 70%;
+        width: 75%;
 }}
 
 
@@ -199,6 +199,7 @@ div#Service_unload {
     flex-direction: row;
     margin-top: 80px;
     gap: 60px;
+    align-items: flex-start;
 }
 
 @media screen and (max-width: 1280px){
@@ -266,9 +267,7 @@ div#Service_moving .service_contents2 {
 
 @media screen and (max-width: 540px){
     .moving_price ul  {
-        width: auto;
-        justify-content: baseline;
-        overflow-x: scroll;
+        width: 100%;
 }}
 
 
@@ -279,7 +278,7 @@ div#Service_moving .service_contents2 {
 
 @media screen and (max-width: 540px){
     .moving_price ul li {
-        width: auto;
+        width: 100%;
 }}
 
 
@@ -293,7 +292,7 @@ div#Service_moving .service_contents2 {
 
 @media screen and (max-width: 540px){
     .moving_price ul li dl {
-        width: auto;
+        width: 100%;
 }}
 
 
@@ -305,12 +304,11 @@ div#Service_moving .service_contents2 {
     padding-left: 20px;
 }
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 540px){
     .moving_price ul li dl dt {
-        width: 144px;
+        width: 120px;
+        padding: 0 12px;
 }}
-
-
 
 
 .plan_customer {
@@ -325,8 +323,9 @@ div#Service_moving .service_contents2 {
     justify-content: center;
     align-items: center;
 }
+
+
 @media screen and (max-width: 540px){
     .moving_price ul li dl dd {
-        flex: none;
-        width: 160px;
+        flex: 140px;
 }}
