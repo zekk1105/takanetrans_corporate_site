@@ -224,12 +224,23 @@ div#Service_moving .service_contents2 {
     height: auto;
 }
 
+    @media screen and (max-width: 540px){
+        .service_contents2 p {
+            width: 65%;
+        }}
+
+
 
 
 .service_contents2 img {
     width: 45%;
     height: auto;
 }
+
+@media screen and (max-width: 540px){
+    .service_contents2 img {
+        width: 35%;
+    }}
 
 
 
