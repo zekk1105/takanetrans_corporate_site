@@ -38,10 +38,17 @@
         background-color: #11D0C9;
         padding: 12px;
 }}
-    @media screen and (max-width: 540px){
-        .Main_title {
-            font-size: 40px;
-    }}
+
+.Main_title .Title {
+    background: black;
+    color: white;
+}
+
+@media screen and (max-width: 960px){
+    .Main_title .Title {
+        background-color: #fff;
+        color: #11D0C9;
+}}
 
 
 .MV_title_top {
@@ -58,6 +65,7 @@
     @media screen and (max-width: 960px){
         .MV_title_top {
             font-size: 80px;
+            color: #fff;
     }}
         @media screen and (max-width: 540px){
             .MV_title_top {
@@ -83,6 +91,7 @@
         .MV_sub_top {
             font-size: 48px;
             margin-bottom: 40px;
+            color: #fff;
     }}
         @media screen and (max-width: 540px){
             .MV_sub_top {
