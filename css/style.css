@@ -286,6 +286,9 @@ dd,dt {
 */
 
 header {
+    position: fixed;
+    background-color: white;
+    z-index: 3;
     width: 100%;
     height: 56px;
     padding-left: 60px;
